@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+	
+		<title>Go tour and travel</title>
+		<meta name="description" content="information related to tours and travel.">
+		
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		
+	
+		<link rel="stylesheet" href="includes/css/styles.css">
+		
+		
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+		
+	</head>
+	<body>
+	
+		<div class="container" id="main">
+		
+			<div class="navbar navbar-fixed-top">
+				<div class="container">
+					
+				
+					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				
+				
+					
+					<div class="nav-collapse collapse navbar-responsive-collapse">
+						<ul class="nav navbar-nav">
+							<li class="active">
+							
+														
+							</li>
+							
+							
+							<li class="active">
+								<a href="#">Home</a>
+							</li>
+							
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <strong class="caret"></strong></a>
+								
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#">Flight booking</a>
+									</li>
+									
+									<li>
+										<a href="#">Hotel booking</a>
+									</li>
+									
+									<li>
+										<a href="#">Touring Package</a>
+									</li>
+									
+									<li class="divider"></li>
+									
+									<li class="dropdown-header">More Services</li>
+									
+									<li>
+										<a href="#">Group tours</a>
+									</li>
+									
+									<li>
+										<a href="#">Couple tour</a>
+									</li>
+								</ul>
+							</li>
+							
+						</ul>
+						
+						<form class="navbar-form pull-left">
+							<input type="text" class="form-control" placeholder="Search " id="searchInput">
+							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+						</form>
+						
+						<ul class="nav navbar-nav pull-right">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> My Account <strong class="caret"></strong></a>
+								
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a>
+									</li>
+									
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-refresh"></span> Update Profile</a>
+									</li>
+									
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-briefcase"></span> Billing</a>
+									</li>
+									
+									<li class="divider"></li>
+									
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-off"></span> Sign out</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				
+				</div>
+			</div>
+			
+			
+			<div class="carousel slide" id="myCarousel">
+			
+				
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+					<li data-slide-to="1" data-target="#myCarousel"></li>
+					<li data-slide-to="2" data-target="#myCarousel"></li>
+				</ol>
+			
+			
+				<div class="carousel-inner">
+					<div class="item active" id="slide2">
+						<div class="carousel-caption">
+							<h4>Beach</h4>
+							
+						</div>
+					</div>
+					
+					<div class="item" id="slide1">
+						<div class="carousel-caption">
+							<h4>Nature</h4>
+							
+						</div>
+					</div>
+					
+					<div class="item" id="slide3">
+						<div class="carousel-caption">
+							<h4>ocean</h4>
+							
+						</div>
+					</div>
+				</div>
+				
+			
+				<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+			
+			</div>
+			
+			
+			<div class="row" id="bigCallout">
+				<div class="col-12">
+					
+					<div class="alert alert-success alert-block fade in" id="successAlert">
+						<button type="button" class="close" data-dismiss="alert">&times;</button>
+						
+						<h4>Mystic Rome!</h4>
+						<p>A trip to Rome with accommodation, air tickets and sightseeing all inclusive only $3000 .</p>
+					</div>
+					
+				
+					<div class="well well-small visible-sm">
+						<a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> Give us a call!</a>
+					</div>
+					
+					<div class="well">
+						<div class="page-header">
+							<h1>Go Tours and Travels <small> Home away from home to relax and enjoy the spirit of life.</small></h1>
+						</div>
+					
+						
+						<a href="" class="btn btn-medium btn-primary" id="alertMe">Check out hot deals</a>
+						
+					</div>
+					
+				</div>
+			</div>
+			
+			
+			<div class="row" id="featuresHeading">
+				<div class="col-12">
+					<h2>Perfect therapy to unwind from routine</h4>
+					
+				</div>
+			</div>
+			
+			
+			<div class="row" id="features">
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Rejuvenate</h3>
+						</div>
+						<img src="images/badge_html5.jpg" alt="HTML5" class="img-circle">
+						
+						<p>Its warm decor and certified staff welcome you to enjoy the "spa treatment " with tanning,massage, skin care, manicures and more..</p>
+						
+						<a href="" target="_blank" class="btn btn-warning btn-block">Best spas </a>
+					</div>
+				</div>
+				
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title"> Explore</h3>
+						</div>
+						<img src="images/badge_css3.jpg" alt="CSS3" class="img-circle">
+						
+						<p>A whole spectrum of world class attraction is available to be explored  such as aquarium,library,museums, historic places and parks.</p>
+						
+						<a href="" target="_blank" class="btn btn-danger btn-block">Sightseeing</a>
+					</div>
+				</div>
+				
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Shop</h3>
+						</div>
+						<img src="images/badge_bootstrap.jpg" alt="Bootstrap 3" class="img-circle">
+						
+						<p>With more than 400 stores and services,Mall is country's largest shopping centre.Come and experience the thrill of shopping.</p>
+						
+						<a href="" target="_blank" class="btn btn-info btn-block">Biggest malls</a>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row" id="moreInfo">
+				<div class="col-sm-6">
+					<h3>Contact Us</h3>
+					<div class="tabbable">
+						<ul class="nav nav-tabs">
+							<li class="active"><a href="#tab1" data-toggle="tab">Locate us</a></li>
+							<li><a href="#tab2" data-toggle="tab">Send us a message</a></li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane active" id="tab1">
+								<h4><span class="glyphicon glyphicon-map-marker"></span> Our Location </h4>
+								
+								<iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2605.6275586177862!2d-122.999141!3d49.226589999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548676595c5fb407%3A0x70139844bf95bfa5!2sMetropolis+at+Metrotown!5e0!3m2!1sen!2sca!4v1410214074389" width="400" height="300" frameborder="0" style="border:0"></iframe>
+								
+								
+							</div>
+					
+							<div class="tab-pane" id="tab2">
+								<h4>Ask us about tours</h4>
+															
+								
+								<p> we can help you choose your favrouite destination on the basis of your requirement.</p>
+															
+								
+								<hr>
+								
+								<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Send us your message!</a>
+								
+								<div class="modal fade" id="myModal">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button class="close" data-dismiss="modal">&times;</button>
+												
+												<h4 class="modal-title">Message Window</h4>
+											</div>
+											<div class="modal-body">
+												
+												
+												<p>Our representative will get back to you as soon as possible.</p>
+												
+												
+												
+												
+												
+												
+												
+												<form class="form-horizontal">
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputName">Name</label>
+														<div class="col-lg-10">
+															<input class="form-control" id="inputName" placeholder="Name" type="text">
+														</div>
+													</div>
+													
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+														<div class="col-lg-10">
+															<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+														</div>
+													</div>
+													
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputMessage">Message</label>
+														<div class="col-lg-10">
+															<textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+															<button class="btn btn-success pull-right" type="submit">Send!</button>
+														</div>
+													</div>
+												</form>
+											</div>
+											
+											<div class="modal-footer">
+												<button class="btn btn-default" data-dismiss="modal" type="button">Close</button> <button class="btn btn-primary" type="button">Save changes</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-sm-6">
+					<h3>Most popular touring destination</h3>
+					<p>As listed in popular magazine</p>
+					
+					
+					<div class="list-group">
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Las Vegas Strip</h4>
+							<p class="list-group-item-text">It's hard to miss the dancing Bellagio fountains, and why would you want to? Some warm clothes are advised,although it's scorching outside,casinos are famous for their chilly AC policies.</p>
+						</a>
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Times Square New york City</h4>
+							<p class="list-group-item-text">A treasure-trove of LED lighting and attractions. Go on a walking tour first, or do some research at home, so that you can choose between the abundance of theatre, music and comedy shows.</p>
+						</a>
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Niagra Falls</h4>
+							<p class="list-group-item-text">Covering its passengers in the dense mist of the falls,the maid if ferry service has been running since 1864. You will face larger crowds in the peak season but will be greeted by warmer weather.</p>
+						</a>
+					</div>
+					
+					
+				</div>
+			</div>
+			
+			<hr>
+			
+			<div class="row" id="moreCourses">
+				<div class="col-12">
+					<h3>Personalize touring experience</h3>
+					<div class="thumbnails row">
+						<div class="col-6">
+							<div class="thumbnail">
+								<img src="images/australia.jpg"> 
+						
+								
+								<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup>$</sup>5000</div>
+								
+								<div class="caption">
+									<h3>Beautiful Australia</h3>
+									
+									<p>Enjoy with your family.</p>
+									
+									<p><a href="" class="btn btn-primary btn-small" target="_blank">Buy Now</a> <a href="" target="_blank" class="btn btn-small btn-link">Redeem Gift Coupon</a></p>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-6">
+							<div class="thumbnail">
+								<img src="images/paris.jpg">
+								
+								<div class="label label-info price"><span class="glyphicon glyphicon-tag"></span> <sup>$</sup>4000</div>
+								
+								<div class="caption">
+									<h3>Romantic Paris</h3>
+									
+									<p>Enjoy with your partner</p>
+									
+									<p><a href="" class="btn btn-primary btn-small" target="_blank">Buy Now</a> <a href="" target="_blank" class="btn btn-small btn-link">Redeem Gift Coupon</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+					<h6>Copyright &copy; 2014 Vidhi Javiya</h6>
+					</div>
+					
+					<div class="col-sm-4">
+						<h6>About Us</h6>
+						<p>We are world class tours and travelling agency providing satisfying service since last 10 years.</p>
+					</div>
+					
+					<div class="col-sm-2">
+						<h6>Navigation</h6>
+						<ul class="unstyled">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Services</a></li>
+							<li><a href="#">Links</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div>
+					
+					<div class="col-sm-2">
+						<h6>Follow Us</h6>
+						<ul class="unstyled">
+							<li><a href="#">Twitter</a></li>
+							<li><a href="#">Facebook</a></li>
+							<li><a href="#">Google Plus</a></li>
+						</ul>
+					</div>					
+					
+				</div>
+			</div>
+		</footer>
+	
+
+	
+		
+
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	
+	<script src="includes/js/script.js"></script>
+	
+	</body>
+</html>
+
